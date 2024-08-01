@@ -5,7 +5,7 @@
 @layer base {
     :root {
         --color-text-main: 23 23 23; /* #171717 */
-        --color-bg-main: 242 241 236; /* #F2F1EC */
+        --color-bg-main: 242 241 235 1; /* #F2F1EB */
         --color-bg-muted: 234 233 225; /* #EAE9E1 */
         --color-border-main: 23 23 23; /* #171717 */
     }
@@ -14,6 +14,15 @@
         --color-bg-main: 23 23 23; /* #171717 */
         --color-bg-muted: 36 36 36; /* #242424 */
         --color-border-main: 242 241 236; /* #F2F1EC */
+    }
+
+    .prose p {
+        line-height: 1.5; /* Adjust this value as needed */
+    }
+
+    /* Reduce line-height for hero text */
+    .hero-text {
+        line-height: 1.2; /* Adjust this value as needed */
     }
 
     /* Cyan */
